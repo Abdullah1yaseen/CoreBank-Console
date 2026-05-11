@@ -23,6 +23,10 @@ public class User {
 		this.account = account;
 	}
 	
+	public BankAccount getAccount() {
+		return account;
+	}
+	
 	
 	
 	
