@@ -4,6 +4,7 @@ public class User {
 
 	private String username;
 	private String password;
+	private BankAccount account;
 	
 	public User( String username, String password) {
 		this.username = username;
@@ -18,6 +19,9 @@ public class User {
 		return password;
 	}
 	
+	public void setAccount(BankAccount account) {
+		this.account = account;
+	}
 	
 	
 	
