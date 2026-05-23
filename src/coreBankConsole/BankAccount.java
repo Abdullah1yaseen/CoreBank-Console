@@ -16,7 +16,7 @@ public class BankAccount {
 	}
 	
 	public boolean withdraw(double amount) {
-		if(balance > amount) {
+		if(amount > balance) {
 			System.out.println("Insufficient balance");
 			return false;
 		}
